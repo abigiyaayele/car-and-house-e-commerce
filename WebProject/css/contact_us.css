@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.contact .content .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:0%;
+    font-size: 22px;
+} 
+.contact{
+    
+    position: relative;
+    /* min-height: 100vh; */
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(Pictures/contact2.jpg) ;
+    
+
+    
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 500;
+    font-weight: 300;
+    color: #fff;
+}
+.contact .content p{
+    font-weight: 300;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    
+}
+.container .contactInfo .box .icon{
+     min-width: 60px;
+     height: 60px;
+     background: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius:  50%;
+     font-size: 22px;
+}
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+font-weight: 500;
+color: #00bcd4;
+}
+.container .contactInfo .box a{
+    color: #fff;
+    text-decoration: none;
+}
+.paragraph{
+    font-size: 17px;
+}
+.paragraph p{
+    color: #fff;
+}
+
+@media (max-width: 850px){
+    .contact{
+        padding: 30px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactInfo{
+        margin-bottom: 40px;
+    }
+    .container .contactInfo{
+        width: 60%;
+    }
+    .container .contactForm{
+        margin-top: 30px;
+        width: 100%;
+    }
+} 
+/* @media (max-width: 350px){
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: row;
+    }
+    .container .contactInfo{
+        margin-bottom: 40px;
+    }
+    .container .contactInfo{
+        width: 100%;
+    }
+    .container .contactForm{
+        margin-top: 30px;
+        width: 60%;
+        
+    }
+}  */
+
+h1{
+    color:#00bcd4;
+}
